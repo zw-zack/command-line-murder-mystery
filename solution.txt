@@ -1,0 +1,19 @@
+
+head -n 20 people
+
+grep -C 2 "CLUE" crimescene
+
+grep -C 2 "Annabel" people
+head -n 40 streets/Hart_Place | tail -n 5
+head -n 179 streets/Buckingham_Place | tail -n 5
+head -n 30 interviews/interview-699607
+grep -A 5 "L337" mystery/vehicles
+
+grep -A 2 "Jeremy Bowers" /memberships/AAA  509  grep -A 2 "Jeremy Bowers" memberships/AAA
+grep -A 2 "Jacui Maher" memberships/AAA
+grep -A 2 "Joe Germuska" memberships/AAA
+grep -A 2 "Eriki Owens" memberships/AAA
+grep -A 2 "Jacui Maher" memberships/AAA
+grep -A 2 "Joe Germuska" memberships/Delta_SkyMiles
+grep -A 2 "Jeremy Bowers" memberships/Delta_SkyMiles
+grep -A 2 "Jeremy Bowers" memberships/Museum_of_Bash_History
